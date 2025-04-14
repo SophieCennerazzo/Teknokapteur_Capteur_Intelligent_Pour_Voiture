@@ -1,9 +1,1 @@
-echo "# Teknokapteur_Capteur_Intelligent_Pour_Voiture" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/SophieCennerazzo/Teknokapteur_Capteur_Intelligent_Pour_Voiture.git
-git push -u origin main
-
 *Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis*
