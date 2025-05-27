@@ -1,12 +1,51 @@
-1. _Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis._
-
 # Teknokapteur - Un capteur intelligent pour voiture
 
-Test
+1.  Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis.
+Objectif du projet
+-Réaliser une voiture capable de se déplacer de manière autonome , en évitant les obstacles grâce à un capteur ultrason.
+2. Fonctionnalités attendues
+-Déplacement avant, arrière, gauche, droite.
+-Évitement automatique d'obstacles.
+
+
+
 
 ## Liste de matériel
+-Carte arduino Uno
+-Capteur ultrason
+-Cables pour le montage 
+-Cable USB
+-Carte UCA Board RFthings
+-Capteur HC-SR04
+###Etapes de realisation 
+1. Étude et planification
+-Choisir les composants qu'on a besoin
+-Faire le schéma de câblage
 
-Carte UCA Board RFthings
-Arduino Uno
-Capteur HC-SR04
+2.Tester l'alimentation si elle marche
+
+3. Programmation
+-Développer le code Arduino
+-Lecture des distances
+-Réaction face aux obstacles
+
+4.Verification de la voiture
+-Vérifier le capteur ultrason
+-Valider le mode automatique
+-Vérifier la stabilité de la voiture
+
+5. Documentation
+-Faire un README avec les branchements
+-Faire une presentation 
+-Ajouter une vidéo ou des images
+
+####Les comtraintes et les criteres reussite dans le projet:
+
+1.Contraintes techniques 
+-Le  système doit répondre immediatemment
+
+2.Lescriteres reussites 
+-La voiture roule de manière stable
+-Elle évite correctement les obstacles
+
 
