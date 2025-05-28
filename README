@@ -1,8 +1,9 @@
 # Teknokapteur - Un capteur intelligent pour voiture
 
-1.  Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis.
+1.  Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis
+.
 Objectif du projet
--Réaliser une voiture capable de se déplacer de manière autonome , en évitant les obstacles grâce à un capteur ultrason.
+Ce projet consiste à créer un capteur ultrason avec un affichage de LEDs en rouge en fonction de la distance de l'objet par rapport à celui-ci.
 2. Fonctionnalités attendues
 -Déplacement avant, arrière, gauche, droite.
 -Évitement automatique d'obstacles.
@@ -37,7 +38,6 @@ Objectif du projet
 5. Documentation
 -Faire un README avec les branchements
 -Faire une presentation 
--Ajouter une vidéo ou des images
 
 ####Les comtraintes et les criteres reussite dans le projet:
 
