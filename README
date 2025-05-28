@@ -1,51 +1,21 @@
 # Teknokapteur - Un capteur intelligent pour voiture
 
-1.  Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis
-.
-Objectif du projet
-Ce projet consiste à créer un capteur ultrason avec un affichage de LEDs en rouge en fonction de la distance de l'objet par rapport à celui-ci.
-2. Fonctionnalités attendues
--Déplacement avant, arrière, gauche, droite.
--Évitement automatique d'obstacles.
+1.  Ce projet est réalisé dans le cadre du module Communication Sans Fil en Licence 1 à l’Université Nice Sophia Antipolis.
 
-
-
+Teknokapteur : ce projet consiste à créer un capteur ultrason avec un affichage de LEDs en rouge en fonction de la distance de l'objet par rapport à celui-ci. Cette distance sera affichée dans le moniteur série en centimètres. 
+Un envoi sur un serveur en LoraWan peut être envisagé à l'aide d'un serveur sur The Things Network ou en MQTT.
 
 ## Liste de matériel
--Carte arduino Uno
--Capteur ultrason
--Cables pour le montage 
--Cable USB
--Carte UCA Board RFthings
--Capteur HC-SR04
-###Etapes de realisation 
-1. Étude et planification
--Choisir les composants qu'on a besoin
--Faire le schéma de câblage
+- Carte UCA Board (RfThings)
+- Capteur ultrason HC- SR04
+- Fils pour le montage
+- Câble USB
+- Breadboard
 
-2.Tester l'alimentation si elle marche
+## Montage 
+Placer le capteur sur la breaboard près des entrées numériques. Brancher les fils près des entrées du capteur de cette façon : Trig sur le port D8, Echo sur le port D7, GND sur GND, Ucc sur l'entrée des 5V de la carte.
 
-3. Programmation
--Développer le code Arduino
--Lecture des distances
--Réaction face aux obstacles
+(Cf schéma indiqué sur le Github)
 
-4.Verification de la voiture
--Vérifier le capteur ultrason
--Valider le mode automatique
--Vérifier la stabilité de la voiture
-
-5. Documentation
--Faire un README avec les branchements
--Faire une presentation 
-
-####Les comtraintes et les criteres reussite dans le projet:
-
-1.Contraintes techniques 
--Le  système doit répondre immediatemment
-
-2.Lescriteres reussites 
--La voiture roule de manière stable
--Elle évite correctement les obstacles
 
 
