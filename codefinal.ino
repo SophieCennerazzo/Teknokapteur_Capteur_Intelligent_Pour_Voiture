@@ -17,7 +17,7 @@ CRGB leds[NUM_LEDS];
 void setup() {
   delay(1000);
   Serial.begin(115200);
-  while (!Serial) { delay(10); } // Attendre que le moniteur série soit prêt
+  while (!Serial) { delay(10); }
   
   Serial.println("Démarrage du capteur");
 
@@ -44,17 +44,15 @@ void loop() {
   Serial.println(" cm");
 
   if (distance == 0) {
-    // Affichage entièrement en vert si aucun objet n'est détecté
     fill_solid(leds, NUM_LEDS, CRGB::Green);
   } else {
-    // Calcul du nombre de LEDs à afficher
     int numLitLeds = map(distance, MIN_DISTANCE, MAX_DISTANCE, 1, NUM_LEDS);
 
     for (int i = 0; i < NUM_LEDS; i++) {
       if (i < numLitLeds) {
-        leds[i] = CRGB::Red; // LEDs deviennent rouges progressivement
+        leds[i] = CRGB::Red;
       } else {
-        leds[i] = CRGB::Green; // LEDs restantes restent vertes
+        leds[i] = CRGB::Green;
       }
     }
   }
